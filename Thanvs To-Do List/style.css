@@ -1,0 +1,56 @@
+.topic h1{
+    padding: 50px;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family:cursive;
+    color:chartreuse;
+}
+.img{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(im1.jpg);
+    width: 100%;
+    padding-bottom: 100;
+    min-height: 100%;
+    
+}
+.todo-search{
+    width: 600px !important;
+    text-align: center;
+    
+    height: 50px;
+   
+}
+.mylist{
+    margin: 50px;
+    width: 600px;
+   
+ 
+}
+.mylist li{
+    padding: 20px;
+    font-size: 18px !important;
+    color:black;
+    background: transparent;
+    background-color :skyblue;
+}
+
+.mylist li i{
+    cursor: pointer;
+}
+.todo-add{
+    
+    text-align: center;
+   
+    height: 50px;
+    margin-top: 10px;
+}
+.add-content h3{
+    margin-top: 50px;
+    color:lime;
+    font-family:cursive;
+}
+input[type=text],
+input[type=text]:focus{
+    color:lime;
+    background: rgba(0,0,0,0.2);
+
+}
